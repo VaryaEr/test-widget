@@ -1,0 +1,42 @@
+{
+  "name": "weather-widget",
+  "version": "1.0.0",
+  "description": "Weather widget for Plumsail test task",
+  "main": "dist/weather-widget.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "type-check": "tsc --noEmit",
+    "preview": "npx serve dist"
+  },
+  "keywords": [
+    "weather",
+    "widget",
+    "vue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@vue/compiler-sfc": "^3.5.25",
+    "babel-loader": "^10.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "dotenv-webpack": "^8.1.1",
+    "html-webpack-plugin": "^5.6.5",
+    "sass": "^1.94.2",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "vue-loader": "^17.3.1",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

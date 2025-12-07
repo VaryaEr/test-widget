@@ -1,0 +1,47 @@
+// Colors
+$color-blue: #3498db;
+$color-blue-dark: #2980b9;
+$color-blue-light: #e8f4fc;
+$color-red: #e74c3c;
+$color-red-light: rgba(231, 76, 60, 0.1);
+$color-gray: #7f8c8d;
+$color-gray-light: #e6e8ea;
+$color-gray-hover: #f0f5f7;
+$color-dark: #2c3e50;
+$color-white: #ffffff;
+$color-border: #ecf0f1;
+
+// Status colors
+$color-warning-bg: #fff3cd;
+$color-warning-border: #ffeaa7;
+$color-warning-text: #856404;
+
+// Spacing
+$space: 16px;
+$space-half: 8px;
+$space-lg: 24px;
+$space-xl: 32px;
+
+// Container
+$container-width: 1200px;
+$container-padding: 20px;
+
+// Border
+$radius: 8px;
+
+// Shadow
+$shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+// Transition
+$transition: 0.2s ease;
+
+// Font sizes
+$font-small: 14px;
+$font-normal: 16px;
+$font-medium: 18px;
+$font-large: 24px;
+$font-xlarge: 32px;
+
+// Drag & Drop
+$drag-indicator-size: 4px;
+$drag-indicator-color: $color-blue;

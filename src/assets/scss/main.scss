@@ -1,0 +1,14 @@
+@use 'reset';
+@use 'variables' as *;
+
+body {
+    color: $color-dark;
+    background: $color-white;
+}
+
+.container {
+    width: 100%;
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 $container-padding;
+}
