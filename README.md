@@ -1,4 +1,4 @@
-**Weather Widget - Installation & Usage**
+**Weather Widget - Installation Usage**
 
 # Setup
 
